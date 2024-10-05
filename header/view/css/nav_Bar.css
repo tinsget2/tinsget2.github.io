@@ -1,0 +1,272 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(/header/view/font/roboto/Roboto-Regular.ttf);
+  font-family: Open_Sans;
+  src: url(/header/view/font/Questrial/OpenSans-VariableFont_wdth,wght.ttf);
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Roboto", sans-serif;
+}
+p{
+  font-family: "Open Sans Light", sans-serif;
+}
+ul{
+  font-family: "Open Sans Light", sans-serif;
+}
+/*==================
+HEADER
+====================*/
+.navbar{
+  position: absolute; width: 100%; z-index: 100;
+}
+.icon-bar{
+  background-color: rgb(253, 252, 252) !important;
+}
+.nav_Bar_Styles a{
+  color:rgb(253, 252, 252);
+  
+}
+.nav_Bar_Styles li{
+  color:rgb(253, 252, 252);
+  font-weight:bold;
+  font-size: 20px;
+  font-family: Roboto-Bold, sans-serif;
+}
+.nav_Bar_Styles{
+  background-color: rgb(253, 252, 252, 0) !important;
+  z-index: 100;
+}
+.nav_Bar_Styles li a:hover{
+  text-decoration: none !important;
+  border-bottom: 2px solid rgb(253, 252, 252) !important;
+  background-color: transparent !important;
+  color:rgb(253, 252, 252) !important;
+}
+.nav_Bar_Styles li a:focus{
+  background-color: transparent !important;
+  color:rgb(253, 252, 252) !important;
+}
+.active{
+  border-bottom: 2px solid rgb(253, 252, 252);
+}
+.dropdown-menu{
+  background-color: rgb(253, 252, 252, 0.2) !important;
+}
+
+.front_Img{
+  height: 640px; top: 0px; position: relative; width: 100%; z-index: 0; background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken; 
+  filter: saturat(50%);
+  margin-top: -70px;
+  
+}
+.navbar{
+  min-height: 50px !important;
+}
+.navbar-toggle{
+  float: left !important;
+  padding-top: 10px;
+}
+.navbar-brand{
+  float: unset !important;
+  margin-left: -50px;
+  padding-top: 15px;
+}
+.navbar-brand img{
+  display: unset !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand img{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  
+}
+
+/*==================
+HEADER
+====================*/
+
+
+/*==================
+HEADER MAIN COMPONENT
+====================*/
+
+/* header main component for devices width lessthan 992*/
+.head_Container{
+  position: relative;
+  background-color: transparent;
+  width: 100%; 
+  height: auto;   
+  margin: 0 auto;    
+  display: flex;
+  flex-direction: column;
+}
+
+/* header logo container and link container holder */
+.head_Container_Item{
+  background-color: transparent; 
+  flex: 100%;
+  height: inherit; 
+  position: relative;
+}
+@media (min-width: 992px) {
+  /* header main component for devices width greater than 992*/
+  .head_Container{
+    position: relative;
+    background-color: transparent;
+    width: 83.33%; 
+    height: auto; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* header logo container and link container holder */
+  .head_Container_Item{
+    background-color: transparent; 
+    flex: auto;
+    position: relative;
+    align-self: center;
+  }
+}
+
+/*==================
+HEADER MAIN COMPONENT
+====================*/
+
+
+/*==================
+HEADER SUB COMPONENT
+====================*/
+
+/* button for the smaller devices */
+.dope_Icon_Container{
+  position: absolute;
+  top: 15px;
+  left: 10px; 
+  background-color: transparent; 
+  border: none; 
+  z-index: 100000001;
+  display: block;
+}
+
+/* button icons for the smaller devices(<992) */
+.drop-icon{
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: rgb(112, 23, 23);
+  margin: 6px;
+}
+
+/* button for the larger devices(>992) */
+@media (min-width: 992px){
+  .dope_Icon_Container{
+    display: none;
+  }
+}
+
+/* the logo container */
+.head_Container_Logo{
+  position: relative;
+  display: flex; 
+  flex-direction: column; 
+  padding: 0px; 
+  margin: 0px;
+  min-height: 50px;
+  z-index: 10000000;
+  justify-content: flex-start;
+  border-bottom: 1px solid black;
+  background-color: rgb(250, 248, 248);
+} 
+
+/* the logo style */
+.head_Container_Logo_Item{
+  background-color: transparent; 
+  text-align: center; 
+  padding: 0 0px;  
+  margin: 5px auto;
+  width: 200px; 
+  height: 50px;
+  
+}
+
+/* the link container */
+.head_Container_Link{
+  position: absolute;
+  display: flex; 
+  flex-direction: column; 
+  padding:15px 0; 
+  margin: 0;
+  min-height: 50px;
+  z-index: 1000000;
+  justify-content: flex-end;
+  background-color: rgba(252, 250, 250, 0.8);
+  width: 100%;
+}
+
+/* the link style */
+.head_Container_Link_Item{
+  list-style-type: none; 
+  background-color: transparent; 
+  text-align: left; 
+  padding: 5px 20px;  
+}
+
+
+@media (min-width: 992px) {
+  /* the logo container */
+  .head_Container_Logo{
+    position: relative;
+    display: flex; 
+    flex-direction: row; 
+    padding: 0px; 
+    margin: 0px;
+    min-height: 50px;
+    z-index: 10;
+    justify-content: flex-start;
+    border-bottom: none;
+    background-color: transparent;
+  }  
+
+  /* the logo styel */
+  .head_Container_Logo_Item{
+    background-color: transparent; 
+    padding: 0 10px; 
+    margin: 10px 0 5px 0;
+    width: 200px; 
+    height: 50px;
+  }
+
+  /* the link container */
+  .head_Container_Link{
+    position: relative;
+    display: flex; 
+    flex-direction: row; 
+    padding: 0px; 
+    margin: 0px;
+    min-height: 50px;
+    z-index: 10;
+    justify-content: flex-end;
+    background-color: transparent;
+    width: 100%;
+  }
+
+  /* the link style */
+  .head_Container_Link_Item{
+    list-style-type: none; 
+    background-color: transparent; 
+    text-align: center; 
+    margin: 0 1px;
+    padding: 0 5px; 
+    align-self: center;
+  }
+  
+}
+
+

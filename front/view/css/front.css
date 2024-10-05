@@ -1,0 +1,263 @@
+
+/* Front Part is here */
+.front_Banner{
+  background-color: #420d79;
+  background-image: url(/portfolio/front/view/img/Tinsaeget.jpg); 
+  background-repeat: no-repeat; background-size: cover; min-height: 700px;
+  background-position: 30% 50%; 
+  margin-top: 0px;
+  
+}
+.banner_Content{
+  position: absolute; top:100px; left: 0px; width: 100%;
+}
+.banner_Content h1{
+  font-weight: bold; color: rgb(247, 176, 253); padding: 0 15px 0 15px;
+  
+}
+.banner_Content p{
+  font-weight: 400; color: rgb(247, 176, 253); padding: 10px 15px 5px 15px;
+  font-size: 17px; line-height: 1.5; text-align: left; 
+}    
+.banner_Content a{
+  padding: 10px 20px; display: inline-block; margin: 0 0 15px 15px; border-radius: 3px; 
+  text-decoration: none; text-align: center; 
+  
+}
+.banner_Btn_1{
+  background-color: rgb(18, 5, 77);  color: rgb(249, 204, 253);
+}
+.banner_Btn_1:hover{
+  background-color: rgb(249, 204, 253); color: rgb(29, 05, 57); cursor: pointer;
+  text-decoration: none;
+}
+.front_Icon{
+  margin: 20px 0; 
+}
+
+.front_Icon a{
+  font-weight: lighter; color: rgb(249, 204, 253); padding: 0px;
+  font-size: 30px; line-height: 1.5; text-align: left; font-family: 'Segoe UI';
+  margin: 0 0 10px 15px;
+}
+.front_Icon a:hover{
+  color: brown;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 300px){
+  .front_Banner{
+    background-color: #420d79;
+    background-image: url(/portfolio/front/view/img/Tinsaeget.jpg);
+    background-repeat: no-repeat; background-size: cover; min-height: 800px; height: auto;
+    background-position: center; background-position: 50% 50%; 
+    display: block;
+    margin-top: -80px;
+  }
+  .banner_Content{
+    position: absolute; top:100px; left: 0px; width: 100%;
+    display: inline-block;
+  }
+  .banner_Content p{
+    font-weight: lighter; color: rgb(249, 204, 253); padding: 10px 15px 5px 15px;
+    font-size: 17px; line-height: 1.5; text-align: left; overflow-y: auto; height: 300px;
+  }  
+  
+}
+
+@media screen and (min-width: 992px){
+  .front_Banner{
+    background-color: #420d79;
+    background-image: url(/portfolio/front/view/img/Tinsaeget.jpg); 
+    background-repeat: no-repeat; background-size: cover; min-height: 700px;
+    background-position: center; background-position: center 50%; 
+    margin-top: -80px;
+  }
+  .banner_Content{
+    position: absolute; top:100px; left: 7%; width: 40%; background-color: transparent;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .front_Banner{
+    background-color: #420d79;
+    background-image: url(/portfolio/front/view/img/Tinsaeget.jpg); 
+    background-repeat: no-repeat; background-size: cover; min-height: 700px;
+    background-position: center; background-position: center 50%; 
+    margin-top: -80px;
+  }
+  .banner_Content{
+    position: absolute; top:100px; left: 7%; width: 60%; background-color: transparent;
+  }
+}
+/* Front Part is here */
+
+/* What i do Part is here */
+.whatIDO_Title{
+  margin: 80px 0 0;
+}
+
+.whatIDO_Title h1{
+  text-align:center; font-weight: 400; color: rgb(29, 05, 57, 1);
+}
+.whatIDO_Title p{
+  text-align:center; font-size: 18px; color: rgb(29, 05, 57, 1);
+}
+@media screen and (min-width: 992px){
+  .whatIDO_Title{
+    margin: 80px 0 50px;
+  }
+}
+
+.whatIDo_Icon{
+  color: rgb(18, 5, 77); font-size: 55px; text-align: center;
+  margin-bottom: 50px;
+}
+.whatIDo_List{
+  font-weight: normal; font-size: 18px; text-align: left; line-height: 1.5; list-style-type: none; margin: 0px; padding: 0px;
+}
+.whatIDo_List li{
+  padding: 5px 0;
+}
+/* What i do Part is here */
+
+/* Proficiency Part is here */
+.proficiency_Title{
+  margin: 80px 0 30px;
+}
+.proficiency_Title h1{
+  text-align:left; font-weight: 500; color: rgb(29, 05, 57, 1);
+}
+.proficiency_Progress h5{
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.progress-bar{
+  font-size: 10px;
+  line-height: 1.5;
+  background-color: rgb(29, 05, 57, 1);
+}
+.progress{
+  height: 15px;
+}
+
+.proficiency_Img img{
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 992px){
+  .proficiency_Img img{
+    margin-top: -60px;
+  }
+}
+/* Proficiency Part is here */
+
+/* Education part is here */
+
+.education_Top{
+  margin-top: 50px;
+}
+.education_Top h1{
+  color: rgb(249, 204, 253);
+}
+.education_In{
+  background-color: white; height: auto; margin: 25px 0px 50px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 5px; padding: 25px;
+}
+.education_In h4{
+  color: rgb(29, 05, 57); padding: 0 15px;
+}
+.education_In p{
+  color: rgb(7, 7, 7); padding: 0 15px; font-weight: 500;
+}
+.education_In h5{
+  color: rgb(29, 05, 57); padding: 10px 15px;
+}
+.education_In time{
+  color: rgb(249, 204, 253); padding: 3px 15px; background-color: rgb(18, 5, 77); border-radius: 5px; margin-left: 15px;
+}
+
+/* Education part is here */
+
+/* Experience Part is here */
+.experience_Top{
+  margin: 70px 0 20px;
+}
+.experience_Top h1{
+  color: rgb(29, 05, 57);
+}
+.experience_In{
+  margin-bottom: 70px; 
+}
+.experience_In div{
+  background-color: rgb(250, 246, 246); 
+  padding-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+  border-radius: 5px;
+  min-height: 500px;
+}
+.experience_In div h3{
+  text-align: center; padding: 40px 15px; color: white; background-color: #12054d; border-top-left-radius: 5px; border-top-right-radius: 5px;
+}
+.experience_In div h4{
+  text-align: center; padding: 0 15px; color: rgb(29, 05, 57);
+}
+.experience_In div p{
+  color: rgb(7, 7, 7); padding: 20px 15px 0; font-weight: 500; font-size: 16px; line-height: 1.5; text-align: left;
+}
+.experience_In_2{
+  margin-bottom: 70px;
+}
+.experience_In_2 div h3{
+  text-align: center; padding: 40px 15px; color: rgb(29, 05, 57); text-decoration: underline; border-top-left-radius: 5px; border-top-right-radius: 5px;
+}
+.experience_In_2 div h4{
+  text-align: center; padding: 0 15px; color: rgb(29, 05, 57);
+}
+.experience_In_2 div p{
+  color: rgb(7, 7, 7); padding: 20px 15px 0; font-weight: 500; font-size: 16px; line-height: 1.5; text-align: left;
+}
+/* Experience Part is here */
+
+/* Projects Part is here */
+.projects_Upper{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.projects_Top h1{
+  color: rgb(29, 05, 57);
+}
+.projects_In{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin: 20px 0;
+  padding-bottom: 35px;
+}
+.projects_In h3{
+  text-align: left; padding: 20px 0px 10px; color: rgb(29, 05, 57);
+}
+.projects_In h4{
+  text-align: left; padding: 20px 0px 0px; color: rgb(29, 05, 57);
+}
+.projects_In p{
+  color: rgb(7, 7, 7); 
+  padding: 5px 0; 
+  font-weight: 500; 
+  font-size: 16px; 
+  line-height: 1.5; 
+  text-align: left;
+}
+.projects_In div i{
+  color: rgb(29, 05, 57); font-size: 25px;
+}
+
+/* Project part is here */
+
+
+.footer_Top h1{
+  color: white;
+}
+.footer_Top p{
+  color: white;
+}
+.footer_Icon a{
+  font-size: 35px;
+  color: white;
+}
